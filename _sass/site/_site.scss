@@ -1,0 +1,19 @@
+@import 'vars/colours';
+@import 'vars/dimensions';
+
+@import 'type/type';
+
+@import 'objects/btn';
+@import 'objects/panel';
+@import 'objects/shared';
+@import 'objects/testimonies';
+
+@import 'partials/header';
+@import 'partials/footer';
+
+body,
+html {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,28 @@
+.siteHeader {
+  @extend %cf;
+  position: relative;
+  padding: $spacing-unit;
+  text-align: center;
+  background-color: $c--orange;
+}
+
+.siteHeader__title {
+  margin-bottom: $spacing-unit;
+  text-align: center;
+  font-size: 46px;
+  color: $c--absoluteWhite;
+  @include mq($from: desktop) {
+    font-size: 56px;
+  }
+}
+
+.siteHeader__subtitle {
+  font-size: 20px;
+}
+
+.siteHeader__buyNowLabel {
+  color: darken($c--absoluteWhite, 2);
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: $spacing-unit/2;
+}

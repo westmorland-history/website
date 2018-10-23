@@ -1,0 +1,26 @@
+.btn {
+  display: inline-block;
+  padding: $spacing-unit/2 $spacing-unit;
+  border-radius: 36px;
+}
+
+.btn--yellow:focus,
+.btn--yellow:hover {
+  color: darken($c--darkGrey, 50);
+  background-color: darken($c--yellow, 5);
+}
+
+.btn--yellow {
+  background-color: $c--yellow;
+  color: $c--darkGrey;
+  font-weight: bold;
+}
+
+.btn--large {
+  font-size: 28px;
+}
+
+.paypalButton {
+  display: inline-block;
+  margin: $spacing-unit/2 auto 0;
+}

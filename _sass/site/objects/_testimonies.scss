@@ -1,0 +1,52 @@
+.testimonies {
+  margin: 0 auto;
+}
+
+.testimonies::after {
+  clear: both;
+  content: ' ';
+}
+
+.testimonial {
+  text-align: center;
+
+  @include mq($from: desktop) {
+    float: left;
+    display: block;
+    margin-right: 2%;
+    width: 31%;
+  }
+}
+
+.testimonial__title {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.testimonial__quote {
+  font-style: italic;
+}
+
+.testimonial__quote p {
+  display: inline;
+}
+
+.testimonial__quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  font-style: normal;
+  line-height: 0.1em;
+  margin-right: 0.15em;
+  vertical-align: -0.4em;
+}
+
+.testimonial__quote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  font-style: normal;
+  line-height: 0.1em;
+  margin-left: 0.15em;
+  vertical-align: -0.6em;
+}

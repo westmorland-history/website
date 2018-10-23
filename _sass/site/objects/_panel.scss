@@ -1,0 +1,36 @@
+.panel {
+  @extend %cf;
+  position: relative;
+  padding: $spacing-unit;
+  text-align: center;
+}
+
+.panel + .panel {
+  border-top: 1px solid $c--grey;
+}
+
+.panel:nth-child(odd) {
+  background-color: lighten($c--orange, 30);
+}
+
+.panel__title {
+  margin-bottom: $spacing-unit;
+  text-align: center;
+}
+
+.panel__title {
+  font-size: 36px;
+}
+
+@include mq($from: desktop) {
+  .panel__image {
+    float: left;
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.panel--upsell {
+  color: #53ABC2;
+  font-size: 36px;
+}
