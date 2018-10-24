@@ -116,6 +116,6 @@ layout: default
     <div class="wrap">
         <h3 class="panel__title panel__title--regular">Additional content</h3>
         <p>As well as the e-book I have compiled additional content to complement the book.</p>
-        <p><a href="/gallery-2/">View the gallery of images</a></p>
+        <p><a href="/gallery/">View the gallery of images</a></p>
     </div>
 </section>
