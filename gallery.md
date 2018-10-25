@@ -1,6 +1,6 @@
 ---
 layout: default
-slug: /gallery/
+permalink: /gallery/
 ---
 
 <section class="panel">
